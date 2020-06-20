@@ -1,0 +1,43 @@
+.home_body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover {
+    color: red;
+}
+
+.bar1 {
+    background: grey;
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bar2 {
+    background: grey;
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
